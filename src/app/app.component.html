@@ -5,24 +5,24 @@
   - The second text area should be editable and also binded to the first text area. which means that if you change the text of the second text area, the first text area should be updated.
  -->
 
-<textarea>
-  Text 1
+<textarea [(ngModel)]=text>
+
   </textarea>
 
 
-  <textarea>
-  Text 2
+  <textarea [(ngModel)]=text>
+
   </textarea>
 
      <body>
-      
+
       <div class="texto">
-        <textarea name="texto1" onkeyup="mostrar(this.value)" id="" cols="18" rows="2"></textarea> 
+        <textarea name="texto1" onkeyup="mostrar(this.value)" id="" cols="18" rows="2"></textarea>
       </div>
-    
-      <h1>RESULTADO</h1>      
+
+      <h1>RESULTADO</h1>
       <div class="texto">
-        <textarea name="texto1" onkeyup="mostrar(this.value)" id="resultado" cols="18" rows="2"></textarea> 
+        <textarea name="texto1" onkeyup="mostrar(this.value)" id="resultado" cols="18" rows="2"></textarea>
       </div>
    </body>
    <hr>
