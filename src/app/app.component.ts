@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EddieEsUnGranMaestro';
+
+  // Add text variable for any input
+  public text:string = '';
+
+
 }
