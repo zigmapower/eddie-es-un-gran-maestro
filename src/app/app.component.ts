@@ -11,5 +11,7 @@ export class AppComponent {
   // Add text variable for any input
   public text:string = '';
 
+  // look for the following terms:  variable, type of a variable
+
 
 }
