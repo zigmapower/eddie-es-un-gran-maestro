@@ -5,7 +5,12 @@
   - The second text area should be editable and also binded to the first text area. which means that if you change the text of the second text area, the first text area should be updated.
  -->
 
-<textarea [(ngModel)]=text>  </textarea>
-  
-<textarea [(ngModel)]=text>  </textarea>
+<textarea [(ngModel)]=input rows="10" cols="50">  </textarea>
+
+<textarea [(ngModel)]=result rows="10" cols="50">  </textarea>
+
+
+<input type="text" [(ngModel)]=firstValue (keyup)="onInputChanged()"/>
+
+<input type="text" [(ngModel)]=secondValue (keyup)="onInputChanged()"/>
 
