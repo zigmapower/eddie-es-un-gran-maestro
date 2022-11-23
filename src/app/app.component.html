@@ -1,12 +1,17 @@
 
-<!--
-  Requirements from user point of view:
-  - The should be able to change the text in the first text area and this should be reflected in the second text area.
-  - The second text area should be editable and also binded to the first text area. which means that if you change the text of the second text area, the first text area should be updated.
- -->
 
+<!--
+  First text area should show the operation as a*b
+-->
 <textarea [(ngModel)]=input rows="10" cols="50">  </textarea>
 
+<!--
+  Second text area should show the result of the operation or in any case both should show that the operation is not valid
+  as
+  first text => non valid valid operation
+  second text => why e.g.:  "first value is no valid"
+
+-->
 <textarea [(ngModel)]=result rows="10" cols="50">  </textarea>
 
 
